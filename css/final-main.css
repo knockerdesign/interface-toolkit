@@ -241,10 +241,12 @@ select {
   background: red !important;
   color: #fff !important; }
 
-code {
-  white-space: pre-line;
+pre {
   padding: 40px;
   background: #ececec; }
+
+code {
+  white-space: pre-line; }
 
 .btn-action {
   color: #ff0000;
