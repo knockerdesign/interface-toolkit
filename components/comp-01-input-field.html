@@ -12,13 +12,14 @@
 </form>
 
 <pre>
-<code>
+<code id="comp-01-input-field-code" class="language-markup">
 
 </code>
 </pre>
 <script type="text/javascript">
     
     var htmlString = $('#comp-01-input-field').html();
-    $('code').text(htmlString);
+    $('#comp-01-input-field-code').text(htmlString);
+    Prism.highlightAll();
 
 </script>
