@@ -50,33 +50,52 @@ input:disabled, select:disabled, textarea:disabled {
 
 // Base checkbox and radio styling
 
+.radio-group, .checkbox-group {
+    margin: 0;
+    padding: 0;
+    li {
+        // the radio and checkbox before elements are postioned off these
+        position: relative;
+        // vertical spacing between individual radios and checkboxes
+        margin-top: $layout-gutter-width / 3;
+        &:first-child {
+            //remove top margin so it sits flush at the top of the element
+            margin-top: 0;
+        }
+    }
+}
+
 input[type="radio"], 
 input[type="checkbox"] {
     position: absolute;
     opacity: 0; // hide from view, but it's clickable on mobile
     z-index: 100;
-    top: $checkbox-width / 2;
-    left: 0;
+    top: 0;
+    left: 5px;
     width: $checkbox-width;
     height: $checkbox-width;
 }
 
-input[type="radio"] + label:before, 
-input[type="checkbox"] + label:before {
-    //use a blank space to get the height correct
-    content: "\00a0"; //;
-    display: block;
-    //ensure even widhts/heights for the radial gradient to sit in the middle
-    width: $checkbox-width;
-    height: $checkbox-width;
-    background: $input-bg;
-    border: 1px solid $input-border;
-    position: absolute;
-    top: 0;
-    left: 0;
-    font-family: "FontAwesome";
-    line-height: 30px;
-    text-align: center;
-    @include font-size($body-copy-size);
+input[type="radio"] + label, 
+input[type="checkbox"] + label {
+    // Set padding so the before elements are positioned correctly
+    padding: ($checkbox-width / 3.5) 0 0 $checkbox-width + ($layout-gutter-width / 2); 
+    &:before {
+        //use a blank space to get the height correct
+        content: "\00a0"; //;
+        display: block;
+        //ensure even widhts/heights for the radial gradient to sit in the middle
+        width: $checkbox-width;
+        height: $checkbox-width;
+        background: $input-bg;
+        border: 1px solid $input-border;
+        position: absolute;
+        top: 0;
+        left: 0;
+        font-family: "FontAwesome";
+        line-height: 30px;
+        text-align: center;
+        @include font-size($body-copy-size);
+    }
 }
 

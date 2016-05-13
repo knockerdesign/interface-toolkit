@@ -7,7 +7,7 @@
 
 
 // target labels of checkbox and radio groups
-.optionset li label, .middleColumn > :not(input).checkbox, .checkbox-label {
+.radio-group, .checkbox-group {
     margin-top: 10px; //Push the label down so it is visially aligned in the middle with the checkbox or radio button
     min-height: $checkbox-width;
     padding-left: $checkbox-width + ($layout-gutter-width / 2);

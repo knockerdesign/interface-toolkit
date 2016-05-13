@@ -85,7 +85,7 @@ button {
 .checkbox .middleColumn {
   margin-left: -52px; }
 
-.optionset li label, .middleColumn > :not(input).checkbox, .checkbox-label {
+.radio-group, .checkbox-group {
   margin-top: 10px;
   min-height: 32px;
   padding-left: 52px; }
@@ -156,45 +156,57 @@ input:disabled, select:disabled, textarea:disabled {
   opacity: 0.4;
   cursor: not-allowed; }
 
+.radio-group, .checkbox-group {
+  margin: 0;
+  padding: 0; }
+  .radio-group li, .checkbox-group li {
+    position: relative;
+    margin-top: 13.33333px; }
+    .radio-group li:first-child, .checkbox-group li:first-child {
+      margin-top: 0; }
+
 input[type="radio"],
 input[type="checkbox"] {
   position: absolute;
   opacity: 0;
   z-index: 100;
-  top: 16px;
-  left: 0;
+  top: 0;
+  left: 5px;
   width: 32px;
   height: 32px; }
 
-input[type="radio"] + label:before,
-input[type="checkbox"] + label:before {
-  content: "\00a0";
-  display: block;
-  width: 32px;
-  height: 32px;
-  background: #ececec;
-  border: 1px solid #214385;
-  position: absolute;
-  top: 0;
-  left: 0;
-  font-family: "FontAwesome";
-  line-height: 30px;
-  text-align: center;
-  font-size: 14px;
-  font-size: 1.4rem; }
+input[type="radio"] + label,
+input[type="checkbox"] + label {
+  padding: 9.14286px 0 0 52px; }
+  input[type="radio"] + label:before,
+  input[type="checkbox"] + label:before {
+    content: "\00a0";
+    display: block;
+    width: 32px;
+    height: 32px;
+    background: #ececec;
+    border: 1px solid #214385;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "FontAwesome";
+    line-height: 30px;
+    text-align: center;
+    font-size: 14px;
+    font-size: 1.4rem; }
 
 input[type="radio"] + label:before {
   border-radius: 50%; }
 
 input[type="radio"]:checked + label:before {
-  background: url("../images/svg-sprite.svg") #ececec -65px -1px;
+  background: url("../img/svg-sprite.svg") #ececec -65px -1px;
   background-size: 320px; }
 
 input[type="radio"] + label.error:before {
   border: 2px solid #bf3746; }
 
-.checkboxset input[type="checkbox"]:checked ~ label:before, input.checkbox:checked + label:before {
-  background: url("../images/svg-sprite.svg") #ececec -32px 0;
+input[type="checkbox"]:checked ~ label:before {
+  background: url("../img/svg-sprite.svg") #ececec -32px 0;
   background-size: 320px; }
 
 select {
@@ -212,7 +224,7 @@ select {
     content: "";
     width: 41px;
     height: 41px;
-    background: url("../images/svg-sprite.svg") top left;
+    background: url("../img/svg-sprite.svg") top left;
     background-size: 410px;
     position: absolute;
     top: 0;

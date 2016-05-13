@@ -12,7 +12,7 @@ input[type="radio"] + label:before {
 }
 
 input[type="radio"]:checked + label:before {
-    background: url('../images/svg-sprite.svg') $input-bg (($checkbox-width * -2) - 1) -1px; // icon is at position 3 on the sprite sheet. Position 1 has no value, so the modifier is -2. -1 is to adjust to put the dot right in the middle
+    background: url('../img/svg-sprite.svg') $input-bg (($checkbox-width * -2) - 1) -1px; // icon is at position 3 on the sprite sheet. Position 1 has no value, so the modifier is -2. -1 is to adjust to put the dot right in the middle
     background-size: $svg-sprite-size;
 }
 
