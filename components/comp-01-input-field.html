@@ -3,8 +3,10 @@
 <form id="comp-01-input-field">
     <fieldset>
         <legend>Text fields</legend>
-        <label for="std-txt">Standard text field</label>
-        <input id="std-txt" type="text" placeholder="Your placeholder">
+        <span data-code-snippet>
+            <label for="std-txt">Standard text field</label>
+            <input id="std-txt" type="text" placeholder="Your placeholder">
+        </span>
 
         <label for="std-disabled-txt">Standard disabled text field</label>
         <input id="std-disabled-txt" type="text" disabled placeholder="Your placeholder">
@@ -20,8 +22,10 @@
 </pre>
 <script type="text/javascript">
     
-    var htmlString = $('#comp-01-input-field').html();
+    var htmlString = $('[data-code-snippet]').html();
     $('#comp-01-input-field-code').text(htmlString);
     Prism.highlightAll();
 
 </script>
+
+
