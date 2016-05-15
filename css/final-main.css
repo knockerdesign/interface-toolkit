@@ -963,6 +963,11 @@ pre {
       vertical-align: top;
       flex: 0 0 31.83333%; } }
 
+.tk-header {
+  background-color: #3e5868;
+  color: #fff;
+  padding: 40px; }
+
 .userform-progress {
   /* one item */
   /* two items */
