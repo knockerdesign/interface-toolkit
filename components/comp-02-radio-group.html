@@ -5,6 +5,7 @@
 
         <legend>Do you already have a personal user account?</legend>
 
+        <span data-code-snippet>
         <ul class="radio-group">
             <li>
                 <input id="radio-inline-1" type="radio" name="radio-inline-group" value="Yes">
@@ -15,6 +16,7 @@
                 <label class="" for="radio-inline-2">No</label>
             </li>
         </ul>
+        </span>
     </fieldset>
 </form>
 
@@ -25,7 +27,7 @@
 </pre>
 
 <script type="text/javascript">
-    var htmlString = $('#comp-02-radio-group').html();
+    var htmlString = $('[data-code-snippet]').html();
     $('#comp-02-radio-group-code').text(htmlString);
     Prism.highlightAll();
 </script>
