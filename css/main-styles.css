@@ -858,7 +858,7 @@ input[type="radio"]:checked + label:before {
   background-size: 320px; }
 
 input[type="radio"] + label.error:before {
-  border: 2px solid #bf3746; }
+  border: 2px solid #ff0000; }
 
 input[type="checkbox"]:checked ~ label:before {
   background: url("../img/svg-sprite.svg") #ececec -32px 0;
