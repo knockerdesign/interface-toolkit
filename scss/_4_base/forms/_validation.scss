@@ -1,7 +1,6 @@
 
 // Validation styling
 
-.field-validation, .error.message {
-  background: red !important;
-  color: #fff !important;
+input.error {
+  border-color: red !important;
 }

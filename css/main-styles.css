@@ -904,9 +904,8 @@ select {
       box-shadow: none;
       outline: none; }
 
-.field-validation, .error.message {
-  background: red !important;
-  color: #fff !important; }
+input.error {
+  border-color: red !important; }
 
 pre {
   padding: 40px;
