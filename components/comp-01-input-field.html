@@ -14,15 +14,19 @@
             <label for="std-txt">Standard text field</label>
             <input id="std-txt" type="text" placeholder="Your placeholder">
 
-            <label for="std-txt-required">Standard mandatory text field</label>
+            <!-- Added aria-required attribute and class for mandatory -->
+            <label for="std-txt-required" class="mandatory-input">Standard mandatory text field</label>
             <input id="std-txt-required" type="text" placeholder="Your placeholder" aria-required="true">
 
+            <!-- Added disabled attribute -->
             <label for="std-disabled-txt">Standard disabled text field</label>
             <input id="std-disabled-txt" type="text" disabled placeholder="Your placeholder">
 
+            <!-- Add aria-invalid and aria-describedby for screen readers -->
             <label for="std-txt-validation">Standard text field with validation error</label>
-            <input id="std-txt-validation" class="error" type="text" aria-invalid="true" placeholder="Your placeholder">
-            
+            <input id="std-txt-validation" class="error" type="text" aria-invalid="true" placeholder="Your placeholder" aria-describedby="std-txt-validation-msg">
+            <!-- Descriptive error message -->
+            <p id="std-txt-validation-msg">Please add the correct number</p>
         </span>
     
 </form>
