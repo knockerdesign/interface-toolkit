@@ -966,7 +966,8 @@ pre {
 .tk-header {
   background-color: #3e5868;
   color: #fff;
-  padding: 40px; }
+  padding: 40px;
+  border-bottom: 3px solid #1e87d7; }
 
 .userform-progress {
   /* one item */
