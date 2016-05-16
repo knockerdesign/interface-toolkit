@@ -740,8 +740,6 @@ button {
 .checkbox .middleColumn {
   margin-left: -52px; }
 
-:not(.radio-group) label, :not(.checkbox-group) label {
-  margin-top: 40px; }
 label[aria-disabled="true"] {
   opacity: 0.4; }
   label[aria-disabled="true"]:hover {
@@ -903,6 +901,9 @@ select {
       -webkit-box-shadow: none;
       box-shadow: none;
       outline: none; }
+
+.field-group {
+  margin-top: 40px; }
 
 input.error {
   border-color: #ff0000 !important; }

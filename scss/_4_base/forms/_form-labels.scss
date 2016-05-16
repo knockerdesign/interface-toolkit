@@ -1,10 +1,6 @@
 
 
 label {
-    :not(.radio-group) & , :not(.checkbox-group) & {
-        // only add a top margin to labels that aren't with radio's or checkboxes
-        margin-top: $layout-gutter-width;
-    }
     // disabled class added by JS
     &[aria-disabled="true"] {
         opacity: 0.4;
