@@ -902,7 +902,7 @@ select {
       box-shadow: none;
       outline: none; }
 
-.field-group {
+.field-group + .field-group {
   margin-top: 40px; }
 
 input.error {
