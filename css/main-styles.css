@@ -973,6 +973,23 @@ h2 {
   padding: 40px;
   border-bottom: 3px solid #1e87d7; }
 
+span[data-code-snippet] {
+  display: block;
+  padding: 40px;
+  border: 1px solid #97b1c1;
+  position: relative;
+  margin-top: 48px; }
+  span[data-code-snippet]:before {
+    content: "Example";
+    line-height: 20px;
+    display: block;
+    position: absolute;
+    top: -48px;
+    right: -1px;
+    padding: 14px;
+    color: #fff;
+    background-color: #97b1c1; }
+
 .userform-progress {
   /* one item */
   /* two items */
