@@ -740,13 +740,12 @@ button {
 .checkbox .middleColumn {
   margin-left: -52px; }
 
-.radio-group, .checkbox-group {
-  margin-top: 10px;
-  min-height: 32px;
-  padding-left: 52px; }
-
-label.disabled {
-  opacity: 0.7; }
+:not(.radio-group) label, :not(.checkbox-group) label {
+  margin-top: 40px; }
+label[aria-disabled="true"] {
+  opacity: 0.4; }
+  label[aria-disabled="true"]:hover {
+    cursor: not-allowed; }
 
 label {
   display: inline-block; }
@@ -807,9 +806,9 @@ input:focus, textarea:focus {
   box-shadow: none;
   outline: none; }
 
-input:disabled, select:disabled, textarea:disabled, label[aria-disabled="true"] {
+input:disabled, select:disabled, textarea:disabled {
   opacity: 0.4; }
-  input:disabled:hover, select:disabled:hover, textarea:disabled:hover, label[aria-disabled="true"]:hover {
+  input:disabled:hover, select:disabled:hover, textarea:disabled:hover {
     cursor: not-allowed; }
 
 .radio-group, .checkbox-group {
