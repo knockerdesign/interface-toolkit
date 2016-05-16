@@ -2,5 +2,9 @@
 // Validation styling
 
 input.error {
-  border-color: red !important;
+  border-color: $brand-warning !important;
+}
+
+.error-msg {
+  color: $brand-warning;
 }

@@ -905,7 +905,10 @@ select {
       outline: none; }
 
 input.error {
-  border-color: red !important; }
+  border-color: #ff0000 !important; }
+
+.error-msg {
+  color: #ff0000; }
 
 pre {
   padding: 40px;
