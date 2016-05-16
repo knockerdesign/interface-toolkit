@@ -11,6 +11,6 @@ h2 {
 
 
 h3 {
-  margin-top: $layout-gutter-width / 2;
+  margin-top: $layout-gutter-width / 1.5;
   @include font-size(26);
 }
