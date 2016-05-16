@@ -41,7 +41,7 @@ input:focus, textarea:focus {
 }
 
 // disabled inputs
-input:disabled, select:disabled, textarea:disabled {
+input:disabled, select:disabled, textarea:disabled, label[aria-disabled="true"] {
     opacity: 0.4;
     cursor: not-allowed;
     // use JS to target the corresponding label to add a disabled class to it
