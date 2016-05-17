@@ -22,7 +22,15 @@
 
             <div class="field-group">
                 <!-- Add aria-invalid and aria-describedby for screen readers -->
-                <label for="std-txt-validation">Standard text field with validation error<span>This is some hint text if needed</span></label>
+                <label for="std-txt-validation">Standard text field with validation error</label>
+                <input id="std-txt-validation" class="error" type="text" aria-invalid="true" placeholder="Your placeholder" aria-describedby="std-txt-validation-msg">
+                <!-- Descriptive error message. -->
+                <span id="std-txt-validation-msg" class="error-msg">Please add the correct number</span>
+            </div>
+
+            <div class="field-group">
+                <!-- Add aria-invalid and aria-describedby for screen readers -->
+                <label for="std-txt-validation">Standard text field with validation error<span>With some hint text to see how it impacts the layout</span></label>
                 <input id="std-txt-validation" class="error" type="text" aria-invalid="true" placeholder="Your placeholder" aria-describedby="std-txt-validation-msg">
                 <!-- Descriptive error message. -->
                 <span id="std-txt-validation-msg" class="error-msg">Please add the correct number</span>
