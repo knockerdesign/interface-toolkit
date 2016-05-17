@@ -989,6 +989,10 @@ h3 {
   padding: 40px;
   border-bottom: 3px solid #1e87d7; }
 
+footer {
+  height: 150px;
+  background: #1e87d7; }
+
 span[data-code-snippet] {
   display: block;
   padding: 40px;
