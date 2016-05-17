@@ -12,7 +12,7 @@ label {
     span {
       // this is hint text
       display: block; // we want it to sit on it's own line
-      margin-top: 10px;
-      text-transform: italics;
+      margin-top: $input-label-v-spacing; // same as the spacing between the input and it's label
+      font-style: italic;
     }
 }

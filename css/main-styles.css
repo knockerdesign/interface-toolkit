@@ -727,31 +727,14 @@ button {
   font-size: 14px;
   font-size: 1.4rem; }
 
-.form-step > .field, .CompositeField, .middleColumn fieldset, .field.text {
-  margin-top: 60px; }
-
-.optionset li, .middleColumn {
-  position: relative; }
-
-.middleColumn .field:first-child {
-  margin-top: 0; }
-
-.optionset li {
-  margin-top: 20px; }
-  .optionset li:first-child {
-    margin-top: 0; }
-
-.checkbox .middleColumn {
-  margin-left: -52px; }
-
 label[aria-disabled="true"] {
   opacity: 0.4; }
   label[aria-disabled="true"]:hover {
     cursor: not-allowed; }
 label span {
   display: block;
-  margin-top: 10px;
-  text-transform: italics; }
+  margin-top: 13.33333px;
+  font-style: italic; }
 
 label {
   display: inline-block; }

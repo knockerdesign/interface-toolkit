@@ -96,7 +96,7 @@ $margin-xl        : $layout-gutter-width*2;
 //input background
 $input-bg               : $gray-10;
 $input-border           : $brand-primary;
-// checkbox width which is also used for the height so it renders square
+// checkbox width which is also used for the height so it renders square. Also used for radio button sizing
 $checkbox-width         : 32px;
 // the vertical spacing between each radio or checkbox input and label group
 $checkbox-v-spacing     : 20px;
@@ -108,10 +108,11 @@ $input-max-length       : 500px;
 $input-height           : 42px;
 $input-left-pad         : $margin-xs;
 $input-focus            : $brand-primary-70;
+// vertical spacing between a text input and it's label
+$input-label-v-spacing  : $layout-gutter-width / 3;
 $placeholder            : $gray-70;
 
-$fieldset-margin        : $margin-lg;
-$check-radio-top-margin : $margin-sm;
+
 
 
 // Tables
