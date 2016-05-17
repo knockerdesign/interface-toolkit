@@ -14,5 +14,6 @@ input[type="checkbox"]:checked ~ label:before {
 .checkbox-group {
   // set postion so the custom checkbox buttons can be positioned
   position: relative;
-  margin-top: $checkbox-width; // spacing between checkbox groups
+  margin-top: $checkbox-v-spacing; // spacing between checkbox groups
+  min-height: $checkbox-width; // make sure the container encompasses the label and absolute positioned checkbox
 }

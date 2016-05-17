@@ -98,6 +98,8 @@ $input-bg               : $gray-10;
 $input-border           : $brand-primary;
 // checkbox width which is also used for the height so it renders square
 $checkbox-width         : 32px;
+// the vertical spacing between each radio or checkbox input and label group
+$checkbox-v-spacing     : 20px;
 // base input width. 100% allows it to resize to it's container on small screens
 $input-width            : 100%;
 // Set a max input length for large screens, so the input doesn't render with a width of 1100px

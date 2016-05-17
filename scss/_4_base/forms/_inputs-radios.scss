@@ -25,5 +25,6 @@ input[type="radio"] + label.error:before {
 .radio-group {
   // set postion so the custom radio buttons can be positioned
   position: relative;
-  margin-top: $checkbox-width; // spacing between radio groups
+  margin-top: $checkbox-v-spacing; // spacing between radio groups
+  min-height: $checkbox-width; // make sure the container encompasses the label and absolute positioned radio
 }
