@@ -766,7 +766,7 @@ input[type="search"] {
   padding-left: 13.33333px;
   background: #ececec;
   border: 1px solid #214385;
-  margin-top: 20px; }
+  margin-top: 13.33333px; }
   input[type="text"]::-moz-placeholder,
   input[type="tel"]::-moz-placeholder,
   input[type="email"]::-moz-placeholder,
@@ -910,6 +910,8 @@ input.error {
   border-color: #ff0000 !important; }
 
 .error-msg {
+  display: block;
+  margin-top: 13.33333px;
   color: #ff0000; }
 
 pre {

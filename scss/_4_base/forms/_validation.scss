@@ -6,5 +6,7 @@ input.error {
 }
 
 .error-msg {
+  display: block; // change the spans into block elements
+  margin-top: $layout-gutter-width / 3; // spacing between the input and it's error message
   color: $brand-warning;
 }
