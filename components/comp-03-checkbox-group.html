@@ -1,0 +1,26 @@
+
+
+<form id="comp-03-checkbox-group">
+
+    <span data-code-snippet>
+        <fieldset class="field-group">
+            <legend>Are you a fan of checkbox buttons?</legend>
+            <div class="checkbox-group">
+                <input id="checkbox-inline-1" type="checkbox" name="checkbox-inline-group" value="Yes">
+                <label class="checkbox-label" for="checkbox-inline-1">Yes</label>
+           </div>
+           <div class="checkbox-group">
+                <input id="checkbox-inline-2" type="checkbox" name="checkbox-inline-group" value="No">
+                <label class="checkbox-label" for="checkbox-inline-2">No</label>
+            </div>
+        </fieldset>
+    </span>
+</form>
+
+
+
+<script type="text/javascript">
+    var htmlString = $('#comp-03-checkbox-group [data-code-snippet]').html();
+    $('#comp-03-checkbox-group-code').text(htmlString);
+    Prism.highlightAll();
+</script>
