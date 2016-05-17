@@ -748,6 +748,10 @@ label[aria-disabled="true"] {
   opacity: 0.4; }
   label[aria-disabled="true"]:hover {
     cursor: not-allowed; }
+label span {
+  display: block;
+  margin-top: 10px;
+  text-transform: italics; }
 
 label {
   display: inline-block; }

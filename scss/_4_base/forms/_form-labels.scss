@@ -9,4 +9,10 @@ label {
         }
         // use JS to target the corresponding label to add aria-disabled to it
     }
+    span {
+      // this is hint text
+      display: block; // we want it to sit on it's own line
+      margin-top: 10px;
+      text-transform: italics;
+    }
 }
