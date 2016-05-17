@@ -51,22 +51,7 @@ input:disabled, select:disabled, textarea:disabled {
 }
 
 
-// Base checkbox and radio styling
 
-.radio-group, .checkbox-group {
-    margin: 0;
-    padding: 0;
-    li {
-        // the radio and checkbox before elements are postioned off these
-        position: relative;
-        // vertical spacing between individual radios and checkboxes
-        margin-top: $layout-gutter-width / 3;
-        &:first-child {
-            //remove top margin so it sits flush at the top of the element
-            margin-top: 0;
-        }
-    }
-}
 
 input[type="radio"], 
 input[type="checkbox"] {

@@ -810,15 +810,6 @@ input:disabled, select:disabled, textarea:disabled {
   input:disabled:hover, select:disabled:hover, textarea:disabled:hover {
     cursor: not-allowed; }
 
-.radio-group, .checkbox-group {
-  margin: 0;
-  padding: 0; }
-  .radio-group li, .checkbox-group li {
-    position: relative;
-    margin-top: 13.33333px; }
-    .radio-group li:first-child, .checkbox-group li:first-child {
-      margin-top: 0; }
-
 input[type="radio"],
 input[type="checkbox"] {
   position: absolute;
@@ -859,9 +850,17 @@ input[type="radio"]:checked + label:before {
 input[type="radio"] + label.error:before {
   border: 2px solid #ff0000; }
 
+.radio-group {
+  position: relative;
+  margin-top: 32px; }
+
 input[type="checkbox"]:checked ~ label:before {
   background: url("../img/svg-sprite.svg") #ececec -32px 0;
   background-size: 320px; }
+
+.checkbox-group {
+  position: relative;
+  margin-top: 32px; }
 
 select {
   display: block; }

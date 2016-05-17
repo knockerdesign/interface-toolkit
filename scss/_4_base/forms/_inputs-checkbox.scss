@@ -10,3 +10,9 @@ input[type="checkbox"]:checked ~ label:before {
     background-size: $svg-sprite-size;
 }
 
+
+.checkbox-group {
+  // set postion so the custom checkbox buttons can be positioned
+  position: relative;
+  margin-top: $checkbox-width; // spacing between checkbox groups
+}

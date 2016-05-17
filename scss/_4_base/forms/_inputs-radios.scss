@@ -20,3 +20,10 @@ input[type="radio"]:checked + label:before {
 input[type="radio"] + label.error:before {
     border: 2px solid $brand-warning;
 }
+
+
+.radio-group {
+  // set postion so the custom radio buttons can be positioned
+  position: relative;
+  margin-top: $checkbox-width; // spacing between radio groups
+}
