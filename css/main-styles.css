@@ -765,7 +765,8 @@ input[type="search"] {
   height: 42px;
   padding-left: 13.33333px;
   background: #ececec;
-  border: 1px solid #214385; }
+  border: 1px solid #214385;
+  margin-top: 20px; }
   input[type="text"]::-moz-placeholder,
   input[type="tel"]::-moz-placeholder,
   input[type="email"]::-moz-placeholder,
