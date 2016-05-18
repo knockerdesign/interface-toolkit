@@ -896,7 +896,7 @@ select {
       outline: none; }
 
 .field-group + .field-group {
-  margin-top: 40px; }
+  margin-top: 60px; }
 
 input.error {
   border-color: #ff0000 !important; }

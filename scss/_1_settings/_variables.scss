@@ -108,6 +108,8 @@ $input-max-length       : 500px;
 $input-height           : 42px;
 $input-left-pad         : $margin-xs;
 $input-focus            : $brand-primary-70;
+// vertical spacing between field groups
+$field-group-v-spacing  : $layout-gutter-width * 1.5;
 // vertical spacing between a text input and it's label
 $input-label-v-spacing  : $layout-gutter-width / 3;
 $placeholder            : $gray-70;
