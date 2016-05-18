@@ -28,11 +28,22 @@
 
             <div class="row">
                 <div class="col-md-8">
+                    <h2>Reserved words</h2>
+                    <p>These are reserved for use as modifier classes and not to have any default declarations assigned</p>
+                    <ul>
+                        <li>.open</li>
+                        <li>.active</li>
+                        <li>.visible</li>
+                        <li>.error</li>
+                    </ul>
+                    <p>The reason for not assigning declarations to the .open class, we don't know how you will 'open' the component. It could be via display, or max-height or height. The above way allows you to customise it per component.</p>
+                    <p>These reserved words will be toggled by JS to change the state of a component.</p>
                     <h2>Notes</h2>
                     <h3>Aria-required</h3>
                     <p>Imagine going through 40 questions with &ldquo;field required&rdquo; going off in your ears every minute?</p>
                     <p>It is proposed that with proper digital service design, the optional fields will be limited in number. With this in mind, we can inform the user at the start of the service that all fields are mandatory unless otherwise stated. This removes the excessive noise for screen readers.</p>
                     <p>All optional fields will be noted with (optional) at the end of the label.</p>
+
                 </div>
             </div>
             <!-- Below are the imported components, so we can work on them individually  -->
